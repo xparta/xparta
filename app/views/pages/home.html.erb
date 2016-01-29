@@ -11,19 +11,20 @@
            <link rel="stylesheet" href="css/normalize.css" >
            <link rel="stylesheet" href="css/main.css" >
            <link rel="stylesheet" href="css/bootstrap_and_customizaton.css.scss" >
+           <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
         </head>
         <body>
             <header>
-                <a href="home.html" id="logo">
+                <a href="home.html"  style="text-decoration:none;" id="logo"</a> 
                     <h1>Newton Robert</h1>
                     <h2> Web Designer</h2>
                     </a>
                     <nav>
                         <ul >
-                            <li><a href= "root.html " class="selected">home</a></li>
+                            <li><a href= "/" class="selected">home</a></li>
                             <li><a href= "portfolio.html " class="selected">portfolio</a></li>
-                            <li><a href= "about.html " class="selected">about</a></li>
-                            <li><a href= "contact.html " class="selected">contact</a></li>
+                            <li><a href= "/about " class="selected">about</a></li>
+                            <li><a href= "/contact " class="selected">contact</a></li>
                             
                         </ul>
                     </nav>
@@ -74,12 +75,11 @@
                          @gallery goes here
                          </section>
                          <footer>
-                            <a href="https://ke.linkedin.com/in/newton-robert-a4a7b184"><img src="assets/furrylinkedin.png" alt="follow on twitter"></a>
+                            <a href="https://ke.linkedin.com/in/newton-robert-a4a7b184"><img src="assets/furrylinkedin.png" alt="follow on Linkedin"class="social-icon"></a>
                                
-                           <a href="https://twitter.com/xpaterr"><img src="assets/furrytwitter.png" alt="follow on twitter"></a>
+                           <a href="https://twitter.com/xpaterr"class="social-icon"><img src="assets/furrytwitter.png" alt="follow on twitter"class="social-icon"></a>
                                
-                        <a href="https://www.facebook.com/spartanewtonrobert
-"><img src="assets/furryfb.png" alt="friend on facebook"></a>
+                        <a href="https://www.facebook.com/spartanewtonrobert"><img src="assets/furryfb.png" alt="friend on facebook"class="social-icon"></a>
                              
                              <p>&copy; 2016 Newton Robert</p>
                              </footer>
@@ -94,12 +94,3 @@
 
 
 
-
-<h1>Welcome to my website</h1>
-<p>like and folow me here </p>
-<%= link_to "Home", root_path %>
-<%= link_to "about", about_path %>
-<%= link_to "contact", contact_path %>
-<%= link_to "Portfolio", portfolio_path %>
-<%=image_tag("img/furryfb.png", alt: "friend on facebook")%>
- <%=image_tag("img/furrytwitter.png", alt: "follow on twitter")%>

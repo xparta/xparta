@@ -12,6 +12,7 @@ a{
 }
 
 body{
+    
     background-color:;
        font-family: 'Open Sans', sans-serif;
 }
@@ -22,22 +23,30 @@ body{
 }
 
 header{
+   style="text-decoration:none;
     float:left;
-    margin:0 30px 0 0;
+    margin:0 20px 0 0;
     padding:5px 0 0 0;
     width:100%;
     background:#6ab47b;
     border-color:#5999a68;
 }
 h1,h2{
-    color :#ffffff;
+    color :#fff;
+    list-style:none;
+    text-decoration:none;
 }
-nav{
-    background:#5999a68;
-}
+
 nav a nav a visited{
     color :#fff;
 }
+nav a{
+    color:#fff;
+    
+}
+
+
+
 nav a.selected nav a:hover {
     color:#32673f;
 }
@@ -49,26 +58,23 @@ nav ul {
 nav li{
     display:inline-block;
 }
+nav a {
+    font-weight:800;
+    padding:115px 10px;
+}
 background{
     background-color:#fff;
     color:#999;
 }
 
-h1{
-    font-family: 'Oswald', sans-serif;
-    
-    margin: 15px;
-    font-size:1.75cm;
-    font-weight:normal;
-    line-height:0.8em;
 }
-h2 {
-    font-family:'Oswald',sans-serif;
-    margin :-5px,0,;
-    font-size:0.75cm;
-    font-weight:normal;
-    
+
+h1 {
+  font-family: ‘Changa One’, sans-serif;
+  font-size: 1.75em;
+  font-weight: normal;
 }
+
 nav{
     text-align:center;
     margin:10px,0;
@@ -82,6 +88,8 @@ img{
     margin:0;
     list-style:none;
     color:#32673f;
+    list-style:none;
+    
     
 }
 #gallery li{
@@ -90,12 +98,14 @@ img{
     margin:2.5%;
     background-color:#f5f5f5;
     color:#32673f;    
+    list-style:none;
 }
 #gallery li a p {
     margin :0;
     padding :5px;
     font-size: 1.05em;
     color:#bdc3c7;
+   list-style:none;
 }
 footer{
     font-size:0.75em;
@@ -103,7 +113,12 @@ footer{
     clear:both;
     padding-top:50px;
     color :#ccc;
-
+}
+.social-icon{
+    width:20px;
+    height:20px;
+    margin:0 5px;
+}
 .../..../header{
     float:left;
     margin:0 30px 0;
@@ -112,3 +127,86 @@ a{
     text_decoration:none:
     
 }
+header.logo{
+    style="text-decoration:none;
+}
+#profile-photo {
+  
+  margin:0 auto 20px;
+  margin-top:10px;
+  max-width: 200px;
+  border-radius: 100%;
+}
+nav a:hover {
+ 
+ color: #32673f;
+}
+/***********************
+************************/
+PAGE:CONTACT
+/********************
+*********************/
+
+
+.contact_info{
+    list-style:none;
+    margin:10px;
+    margin-top:10px;
+    font-size:0.9em;
+    font-weight:0.9em;
+}
+.contact_info a{
+    min-height:20px;
+    background-repeat:no-repeat;
+    background-size:20px 20px;
+    /*padding:0,0,0,30px;*/
+    margin:0,0,0,30px;
+    
+}
+.fav{
+    color:;
+}
+.contact_info li.phone a {
+        background-image :url();
+    }
+    .contact_info { background-image: url( }
+    
+.contact_info li.mail a {
+    background-image :url();
+   
+}
+contact_info li.twitter a {
+    background-image :url);
+   
+}
+.contact_info li.facebook a {
+    background-image :url()
+    
+}
+.contact_info li.linkedin a {
+    background-image :url(
+    
+}
+
+#headline1 {
+      background-image: url(images/twitterwap.png);
+      background-repeat: no-repeat;
+      background-position: left top;
+      padding-top:68px;
+      margin-bottom:50px;
+   }
+
+a {
+    display:inline-block
+    min-height:20px;
+    margin:0 10px ;
+    padding:0 0 30px;
+    background-repeat:no-repeat;
+    background-size:20px 20px;
+}
+
+/***********************
+************************/
+PAGE:COLORS
+/********************
+*********************/
