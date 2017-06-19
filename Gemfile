@@ -1,6 +1,11 @@
 source 'https://rubygems.org'
 
 
+
+
+
+
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
 # Use sqlite3 as the database for Active Record
@@ -16,6 +21,10 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'sprockets-rails', :require => 'sprockets/railtie'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+gem 'therubyracer', platforms: :ruby
+gem 'less-rails'
+gem 'less-rails-bootstrap'
+gem 'jquery-ui-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -27,6 +36,8 @@ gem 'bootstrap', '~> 4.0.0.alpha3'
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.1.0'
 end
+gem "flat-ui-rails"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
