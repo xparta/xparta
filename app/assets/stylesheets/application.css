@@ -19,7 +19,12 @@
 //= require bootstrap-sprockets
 //= require turbolinks
 //= require_tree 
+<<<<<<< HEAD
  
  
  
  
+=======
+//
+@import "bootstrap";
+>>>>>>> 62b369d5ded6a2e1a1d4c5a09d45aa3ce88625d3
