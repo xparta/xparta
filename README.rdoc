@@ -6,20 +6,31 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
+  ruby 2.3.0p0 (2015-12-25 revision 53290) [x86_64-linux]
 
 * System dependencies
+  internet connection
+  34bit 
+  linux _ubuntu
 
 * Configuration
+  make sure you have ruby installed 
+  make sure youve rails installed
+  make sure you have a version of rails 2.0.0 
+  ensure you have the latest browser,ie firefox and google chrome or internet explorer 8 and above,
 
 * Database creation
-
-* Database initialization
-
+  database has been created by rails but managed bys sql
+  
+* database initialization
+   database supported by sql and initialises on visit
 * How to run the test suite
-
+  tests run via rspec
 * Services (job queues, cache servers, search engines, etc.)
-
+  services to search engines delivered by  ransak 
+  
 * Deployment instructions
+  to be deployed in Heroku and merged with node to incresse response. 
 
 * ...
 
